@@ -4,7 +4,7 @@ body {
   background: linear-gradient(135deg, #0f172a, #1e3a8a, #3b82f6);
   font-family: 'Poppins', sans-serif;
   color: #e0e7ff; /* helles Blau für dunklen Hintergrund */
-  background-size: 600% 600%;
+  background-size: 1500% 1500%;
   animation: gradientShift 15s ease infinite;
 }
 
@@ -17,9 +17,16 @@ body {
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  border: 1px solid #3b82f6;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 1x solid #8c3bf6; 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
   margin-bottom: 20px;
+}
+
+.info-box {
+  background: rgba(30, 58, 138, 0.7); /* dunkles Blau mit 70% Deckkraft */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
 }
 
 @keyframes gradientShift {
